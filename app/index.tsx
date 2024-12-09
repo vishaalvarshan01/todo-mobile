@@ -2,6 +2,7 @@ import {useEffect, useState} from "react";
 import {Session} from "@supabase/supabase-js";
 import {supabase} from "@/lib/supabase";
 import {Redirect} from "expo-router";
+import "../global.css"
 
 const Home = () => {
   const [session, setSession] = useState<Session | null>(null)
